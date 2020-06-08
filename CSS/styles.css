@@ -1,0 +1,157 @@
+/* google fonts */
+/*
+font-family: 'Merriweather', serif;
+font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Signika', sans-serif;
+ */
+body {
+  text-align: center;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+p {
+  font-family: 'Merriweather', serif;
+}
+
+hr {
+  border-top-color: grey;
+  border-top-style: dotted;
+  border-width: 7px;
+  width: 70px;
+}
+
+.container-fluid {
+  padding-top: 40px;
+  width: 80%;
+  position: relative;
+}
+
+/* navigation */
+.navbar-brand img {
+  width: 10%;
+}
+
+.navbar-brand img:hover {
+  background-color: white;
+  border: solid;
+  border-radius: 25%;
+}
+
+.navbar {
+  padding: 10px 50px 50px;
+  font-size: 1.3em;
+}
+
+/* title */
+#title {
+  text-align: center;
+  background-color: #6eb6ff;
+}
+
+.title-text {
+  color: white;
+  line-height: 2;
+  padding: 50px 0 90px;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.title-heading {
+  font-family: "Signika", sans-serif;
+  font-size: 3.5rem;
+}
+
+.title-img {
+  position: relative;
+  width: 75%;
+  bottom: -50px;
+}
+
+/* about */
+#about {
+  position: relative;
+  background-color: #e0fcff;
+  line-height: 2;
+  padding-bottom: 50px;
+  /* parallax background */
+  /* fix the height of the source image */
+  background-image: url("parallax.png");
+  background-attachment: fixed;
+  background-position: right;
+  background-repeat: repeat-y;
+  background-size: 25%;
+}
+
+.about-img {
+  position: relative;
+  width: 25%;
+  padding-bottom: 40px;
+}
+
+.about-text {
+  padding: 30px 0;
+}
+
+/* skills */
+.card-img {
+  position: relative;
+  width: 100px;
+  padding: 20px 0 0 0px;
+}
+
+.card {
+  margin: 0 auto;
+  border: none;
+}
+
+.skills-body {
+  text-align: left;
+}
+
+.toolbox-img {
+  position: relative;
+  width: 100px;
+}
+
+.toolbox-body {
+  margin-top: 15px;
+  text-align: left;
+}
+
+.skill-image img {
+  display: inline-block;
+  position: relative;
+  width: 60%;
+  margin: 15px auto;
+}
+
+/* CTA */
+#make-it-happen {
+  background-color: #e0fcff;
+  line-height: 2;
+  padding: 50px 0;
+}
+
+/* footer */
+#footer {
+  background-color: #7098da;
+  line-height: 2;
+  padding: 10px 0;
+}
+
+#footer a {
+  color: white;
+}
+
+#footer a:hover {
+  color: black;
+}
+
+.footer-icon-group {}
+
+.footer-icon {
+  padding: 5px;
+}
+
+.footer-icon:hover {
+  color: white;
+}
