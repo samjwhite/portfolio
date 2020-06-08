@@ -147,9 +147,32 @@ hr {
   margin: 0 auto;
 }
 
-.toolbox-img {
-
+.card .card-header {
+  padding:0;
+  line-height: 2;
 }
+
+
+
+.top-btn{
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.middle-btn{
+  border-radius: 0;
+  margin-bottom: -1px;
+}
+
+.bottom-btn{
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+
+
 
 .toolbox-img:hover {
   /* Start the shake animation and make the animation last for 0.5 seconds */
@@ -173,10 +196,7 @@ hr {
   100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
 
-.toolbox-body {
-  margin-top: 15px;
-  text-align: left;
-}
+
 
 .skill-image img {
   display: inline-block;
